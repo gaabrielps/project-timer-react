@@ -17,7 +17,9 @@ const colors = {
 export const ButtonContainer = styled.button<ButtonColorsProps>`
 
 
-color: ${props => props.theme.};
+color: ${props => props.theme['gray-900']
+
+};
 
 `
 /* ${props =>{
